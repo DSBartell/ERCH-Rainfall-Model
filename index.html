@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ERCH Rainfall Model</title>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <script src="script.js"></script>
+  </head>
+  <body>
+  <h1>ERCH Rainfall Model</h1>
+  <div id="contents">
+    </br>
+    <p id="disclamer">Disclaimer: please note that all outputs are <em>only</em> recommendations.</p>
+    
+    <form id="rainFall" action="javascript:void(0);">
+        Please enter rainfall intensity:
+        <input id="rainVar" placeholder="Rainfall Intensity" type="text"> inches/hr </br>
+        <input id="calcButton" type="button" value="Calculate" onclick="checkInput();"/>
+    </form>
+  </br>
+  </div>
+  <div id="contents2">
+    <br>
+    <p id="reccomendation">Please enter a valid Rainfall Intensity to continue</p>
+    <br>
+  </div>
+  </body>
+</html>
